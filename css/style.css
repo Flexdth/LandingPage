@@ -1,0 +1,124 @@
+/*
+Selecteur{
+
+
+
+}
+*/
+
+body{
+    margin: 0px;
+
+}
+header{
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+header nav a{
+    color: rgb(50, 117, 218);
+    text-decoration: underline;
+    font-family: 'Bebas Neue', cursive;
+    font-size: large;
+    margin-right: 11%;
+    margin-top: 25%;
+}
+
+header nav a:hover{
+    transition: 0.3s;
+    color: white
+    }
+
+
+.logo{
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+main{
+    padding-bottom: 3%;
+}
+
+#titre1{
+    text-decoration: overline;
+}
+
+.intro{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: larger;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.iii{
+    width: 30%;
+    box-shadow: 10px 5px 5px rgb(193, 193, 193);
+    border-radius: 2%;
+}
+
+.iii:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+.info{
+    display: flex;
+    padding: 5%;
+    padding-bottom: 0%;
+    justify-content: space-around;
+    text-decoration: underline;
+}
+
+.info a{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    padding: 0%;
+    font-size: larger;
+}
+
+.info a:hover{
+    transition: 0.2s;
+    color: rgb(50, 117, 218);
+}
+
+footer{
+    background-color: black;
+    height: 20vh;
+}
+
+h1{
+    color: white;
+    text-align: center; 
+}
+
+h2{
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(50, 117, 218);
+    text-align: center;
+  
+}
+
+@media screen and (max-width:480px){
+    .flex{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+}
